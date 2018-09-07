@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Entryform</title>
+    <script src ="entryFormPage.js"></script>   <!--needs to be included in the html for the js-->
+  </head>
+  <body>
+    <form id="myForm" onsubmit= "return verify()" >  <!-- start of the creation of the form
+     when submit is hit calls the aFunction and then send it to the website-->
+
+    Name:<input id="name" placeholder="Name" name="name" />   <!--creates the first input -->
+    <p id="valName"></p><br/>
+
+    Date of Birth:<input id="dob" placeholder="Date of Birth" name="date"/>
+    <p id="valDob"></p><br/>
+
+    Address:<input id= "address" placeholder="Address" type="Address" name="address"/>
+    <p id="valaddress"></p><br/>
+    
+    Postcode:<input id= "postcode" placeholder="Postcode" type="Postcode" name="postcode"/>
+    <p id="valpostcode"></p><br/>
+
+    Email:<input id= "email" placeholder="Email" type="Text" name="email"/>
+    <p id="valEmail"></p>
+
+    <input type="submit" />  
+    
+  </form>
+    
+  
+
+
+  </body>
+</html>
